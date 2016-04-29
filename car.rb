@@ -6,4 +6,8 @@ class Car
     @color, @capacity = color, capacity
   end
 
+  def info
+    "this car has #{@color} color and a capacity of #{@capacity}"
+  end
+
 end
